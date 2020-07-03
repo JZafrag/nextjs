@@ -1,5 +1,5 @@
-import Head from 'next/head'
-
+import Head from "next/head"
+import Link from "next/link"
 const Home = () => (
   <div className="container">
     <Head>
@@ -9,7 +9,7 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome to My Site!
       </h1>
 
       <p className="description">
@@ -64,7 +64,7 @@ const Home = () => (
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center;ter;
       }
 
       main {
